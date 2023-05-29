@@ -8,7 +8,6 @@ library(shinycssloaders)
 library(ggthemes)
 # library(RColorBrewer)
 
-##-- Chamando as funções criadas ----
 source("functions/utils.R")
 source("functions/uniAIP.R")
 colours <- c("#098ebb", "#fdc23a", "#e96449")
