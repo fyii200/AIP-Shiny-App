@@ -1,0 +1,39 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+
+# Donald Trump
+
+<!-- Duas colunas -->
+<div class="col2">
+<img class="foto" src="img/trump.jpeg"/>
+
+<div class="descricao">
+
+### Description
+
+45th US President. 
+
+***
+
+### Interests
+
+* Machine Learning
+* Data Visualisation
+
+***
+
+</div>
+
+<div align='right'>
+  <a href="https://github.com/fyii200"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <!-- <a href="https://twitter.com/">  -->
+  <!--   <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i> -->
+  <!-- </a> -->
+</div>
+
+</div>
