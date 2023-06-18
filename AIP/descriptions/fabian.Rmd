@@ -1,0 +1,27 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+  
+# Mr Fabian Yii
+<div class="col2">
+<img class="foto" src="img/fabian.jpeg"/>
+  
+<div class="descricao">
+  
+* PhD student in precision medicine. 
+* Primary research interests are myopia and big data analytics.
+
+***
+  
+</div>
+
+<div align='right'>
+  <a href="https://github.com/fyii200"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+
+</div>
+
+</div>

@@ -1,0 +1,22 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+  
+# Dr Mike Allerhand
+<div class="col2">
+<img class="foto" src="img/mike.png"/>
+  
+<div class="descricao">
+  
+* Since 2009: Statistician at the Centre for Cognitive Ageing and Cognitive Epidemiology, University of Edinburgh. 
+* Since 2018: Statistical Consultant in the Statistical Consultancy Unit in the School of Mathematics at the University of Edinburgh. 
+
+***
+  
+</div>
+
+</div>
+
+

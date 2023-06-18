@@ -4,14 +4,14 @@ home <- tabPanel(title = "Home",
                  br(), br(),
                  HTML("<h1><center>Welcome to the <b>AIP</b> Demo Page</center></h1>"),
                  br(), br(), br(), br(),
-                 column(width = 3, align = "center",
-                        tab_AIP(texto = "Univariate analysis", cor = colours[1], icon = "analysis.png", id = "univariate")
+                 column(width = 4, align = "center",
+                        tab_AIP(text = "Univariate analysis", col = colours[1], icon = "analysis.png", id = "univariate")
                         ),
-                 column(width = 3, align = "center",
-                        tab_AIP(texto = "Bivariate analysis", cor = colours[2], icon = "analysis.png", id = "bivariate")
+                 column(width = 4, align = "center",
+                        tab_AIP(text = "Bivariate analysis", col = colours[2], icon = "analysis.png", id = "bivariate")
                  ),
-                 column(width = 3, align = "center",
-                        tab_AIP(texto = "About us", cor = colours[3], icon = "about.png", id = "about")
+                 column(width = 4, align = "center",
+                        tab_AIP(text = "About us", col = colours[3], icon = "about.png", id = "about")
                  ),
                  column(width = 12,
                         br(), br(), br(), br(),

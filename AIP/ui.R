@@ -1,10 +1,10 @@
 shinyUI(
   fluidPage(
     
-    # App title ----
+    # App title
     titlePanel("Area Interaction Point Process Models"),
     
-    ##-- Logo ----
+    ## Logo
     tags$head(
       tags$link(rel = "shortcut icon", href = "img/logo.ico"),
       tags$link(rel="stylesheet", type = "text/css",
@@ -20,23 +20,19 @@ shinyUI(
           title="", windowTitle = "AIP"
         )
     ),
-    ##-- Header ----
+    ## Header
     navbarPage(title = div(img(src="img/logo.png",
                                height = "75px"), style = "padding-left:100px;"),
                id = "navbar",
                selected = "home",
                theme = "styles.css", 
                fluid = T,
-               ##-- Home ----
+               ## Home
                home,
                univariate,
                bivariate,
                about
     ),
-    # ##-- Footer ----
-    # div(class = "footer",
-    #     includeHTML("html/footer.html")
-    # )
   )
 )
 

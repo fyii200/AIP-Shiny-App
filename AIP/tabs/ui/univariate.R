@@ -19,17 +19,16 @@ univariate <- tabPanel(title = "Univariate",
                                          "Disc radius:",
                                          value = 5,
                                          min = 1,
-                                         max = 10),
+                                         max = 20),
 
                              # Input: CSV file
                              fileInput('file1', 'Upload CSV file',
                                        accept=c('csv', 'comma-separated-values','.csv')),
 
-
                              # Allow user to specify x and y variables
                              # "Empty inputs" - they will be updated after the data is uploaded
                              selectInput('xcol', 'X Variable', ""),
-                             selectInput('ycol', 'Y Variable', "", selected = "")
+                             selectInput('ycol', 'Y Variable', "")
 
                            ),
 
@@ -39,8 +38,8 @@ univariate <- tabPanel(title = "Univariate",
                              # Output: Tabset w/ plot, summary, and table ----
                              div(
                                tabsetPanel(type = "tabs",
-                                           tabPanel("Plot", plotOutput("univariatePlot", height="550px", width="800px")),
-                                           tabPanel("Tutorial", verbatimTextOutput("m")),
+                                           tabPanel("Plot", plotlyOutput("univariatePlot", height="500px", width="800px")),
+                                           tabPanel("Tutorial", uiOutput("tutorial")),
                                            tabPanel("Dataset", dataTableOutput("content", height="500px", width="550px"))
 
                                )

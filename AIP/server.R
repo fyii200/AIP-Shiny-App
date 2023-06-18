@@ -1,10 +1,10 @@
 shinyServer(function(input, output, session){
-  ##-- HOME ----
+  ## Home 
   source("tabs/server/home.R", local = TRUE)
-  ##-- Univariate ----
+  ## Univariate
   source("tabs/server/univariate/uniServer.R", local = TRUE)
-  ##-- Bivariate ----
+  ## Bivariate
   source("tabs/server/bivariate/biServer.R", local = TRUE)
-  ##-- About ----
+  ## About
   source("tabs/server/about.R", local = TRUE)
 })

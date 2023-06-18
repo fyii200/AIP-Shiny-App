@@ -36,20 +36,20 @@ uniAIP <- function(x,y,R){
     obs = areaLoss(X1, r)
     dum = areaGain(X2, X1, r, W=w)
     return( 1 - c(obs,dum) / (pi*r^2) )
-    }
-  
-  # Plot points and discs (radius r)
-  plot.area = function(p, r) {
-    p$marks = rep(2*r, p$n)          # Mark is rescaled to the circle diameter (not radius), (see ?plot.ppp)
-    plot(p, 
-         markscale=1, 
-         legend=FALSE, 
-         bty="n", 
-         main="", 
-         show.window=FALSE,
-         cols='maroon')
-    points(p, pch=20)
   }
+  
+  # # Plot points and discs (radius r)
+  # plot.area = function(p, r) {
+  #   p$marks = rep(2*r, p$n)          # Mark is rescaled to the circle diameter (not radius), (see ?plot.ppp)
+  #   plot(p, 
+  #        markscale=1, 
+  #        legend=FALSE, 
+  #        bty="n", 
+  #        main="", 
+  #        show.window=FALSE,
+  #        cols='maroon')
+  #   points(p, pch=20)
+  # }
   
 
 range(x)   # 1  95
@@ -61,7 +61,7 @@ X1 = ppp(x, y, window=w)    # "ppp" object: 71 observed points
 Q = quadscheme(X1)          # "quad" object: 71 data points and 1028 dummies (grid of 32*32 + 4 corner points)
 X2 = Q$dummy                # "ppp" object: 1028 dummy points
 
-plot.area(p=X1, r=R)        # Plot
+# plot.area(p=X1, r=R)        # Plot
 
 # Weights
 Wt = Q$w
