@@ -2,4 +2,4 @@
 
 https://fyii.shinyapps.io/AIPapp/
 
-Shiny App for AIP package (work in progress). Dashboard design inspired by [Voronoys]([https://github.com/voronoys/voronoys_sc](https://voronoys.shinyapps.io/voronoys/)https://voronoys.shinyapps.io/voronoys/).
+Shiny App for AIP package (work in progress). Dashboard design inspired by [Voronoys](https://voronoys.shinyapps.io/voronoys/).
